@@ -279,60 +279,58 @@
         android:id="@+id/engineerView"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@id/numberPanel1"
-        app:layout_constraintTop_toTopOf="@id/numberPanel2"
-        app:layout_constraintVertical_bias="0">
+        app:layout_constraintTop_toTopOf="@id/numberPanel1">
 
         <TextView
             android:layout_width="60dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:background="@color/colorPlate"
             android:text="sin"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textSize="30sp"
-            android:textAlignment="center" />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="60dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
             android:background="@color/colorPlate"
-            android:layout_marginTop="32dp"
             android:text="cos"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textSize="30sp"
-            android:textAlignment="center" />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="60dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
             android:background="@color/colorPlate"
-            android:layout_marginTop="78dp"
             android:text="cos"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textSize="30sp"
-            android:textAlignment="center" />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="60dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="126dp"
             android:background="@color/colorPlate"
-            android:layout_marginLeft="62dp"
             android:text="tg"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textSize="30sp"
-            android:textAlignment="center" />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="60dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
             android:background="@color/colorPlate"
-            android:layout_marginLeft="62dp"
-            android:layout_marginTop="62dp"
             android:text="log"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textSize="30sp"
-            android:textAlignment="center" />
+            android:textStyle="bold" />
 
     </FrameLayout>
 
